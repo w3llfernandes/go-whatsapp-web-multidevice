@@ -14,6 +14,12 @@
     - `choco install pkgconfiglite`
 
 ### How to use
+`sudo apt update && sudo apt install golang`
+
+Use `nano ~/.profile` to edit the file and add the following:
+
+`export PATH=$PATH:/usr/local/go/bin`
+Save the file using the command `source ~/.profile`. Check the version:`go version`
 
 1. Clone this repo `git clone https://github.com/aldinokemal/go-whatsapp-web-multi-device`
 2. run `go run main.go`
